@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: url(desktop-wallpaper-web-development-thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color:red;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: red;
+    border-radius: 2px;
+}
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content{
+    width: 600px;
+}
+.home-content h3{
+    line-height: 1.2;
+    font-size: 32px;
+    font-weight: 400;
+}
+.home-content h1{
+    font: 60px;
+    font-weight: 600;
+    color: red;
+}
+.home-content p{
+    font-size: 20px;
+    margin: 5px 0 10px;
+}
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 25px;
+}
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: olive;
+    border: 2px solid olive;
+    border-radius: 8px;
+    font-size: 19px;
+    color:#081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.box-icon{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.box-icon a{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+}
+img{
+    width: 50px;
+    height: 80px;
+    float: right;
+   
+}
